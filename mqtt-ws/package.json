@@ -1,0 +1,15 @@
+{
+  "name": "mqtt-ws",
+  "version": "1.0.0",
+  "description": "Forwards MQTT messages over WebSockets",
+  "main": "bridge.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mqtt",
+    "websockets"
+  ],
+  "author": "Tomas Lycken",
+  "license": "MIT"
+}
