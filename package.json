@@ -1,12 +1,12 @@
 {
   "name": "MQTT-WS-middleware",
   "version": "0.0.1",
-  "description": "",
+  "description": "1. npm install 2. node server.js",
   "main": "server.js",
   "dependencies": {
-    "body-parser": "^1.12.2",
     "express": "^4.12.3",
     "mqtt": "^1.1.2",
+    "mqtt-ws": "file:mqtt-ws",
     "ws": "^0.7.1"
   },
   "devDependencies": {},
@@ -15,5 +15,13 @@
     "start": "node server.js"
   },
   "author": "tlycken",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tlycken/MQTT-WS-Middleware"
+  },
+  "bugs": {
+    "url": "https://github.com/tlycken/MQTT-WS-Middleware/issues"
+  },
+  "homepage": "https://github.com/tlycken/MQTT-WS-Middleware"
 }
