@@ -6,14 +6,15 @@
     <title>WebSocket Test</title>
     <script type="text/javascript" src="/js/ws-api.js"></script>
     <script language="javascript" type="text/javascript">
-    var wsUri = "localhost",
+    var url = "localhost",
         port = 9001;
 
-    var data = wsApi(wsUri, port);
+    var api = new WebSocketService(url, port);
 
-    setInterval(function() {
-        console.log(data);
-    }, 1000);
+    api.addMessageHandler(function(evt) {
+        // Do something here with evt.data
+        // You might have to parse it first
+    });
     </script>
 </head>
 
